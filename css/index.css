@@ -1,15 +1,53 @@
+/* 
+Fonts @import's
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+/*
+Rest of the code
+*/
+
 body {
-    background-image: url('/media/style/bg.png');
+     background-image: url('/media/style/bg.png');
     margin: 0px;
 }
 
 .title {
     text-align: center;
     padding-top: 5vh;
-    padding-bottom: 40vh;
-    font-size: 24px;
+    padding-bottom: 10vh;
+    font-size: 17pt;
     margin: 0px;
 }
 h2 {
     margin: auto;
+}
+
+.subMainBox {
+    text-align: center;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    position: absolute;
+}
+
+.navBlock {
+    
+    flex: left;
+    position: absolute;
+    text-align: left;
+    margin-left: 2.38vw;
+}
+
+
+.navBlock a {
+    margin-left: 1.6vw;
+}    
+    
+.navBlock h3 {
+    font-size: 14pt;
+}
+    
+.jetbrains_mono {
+    font-family: 'JetBrains Mono', monospace;
 }
