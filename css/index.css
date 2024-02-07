@@ -9,8 +9,10 @@ Rest of the code
 */
 
 body {
-     background-image: url('/media/style/bg.png');
+/*     background-image: url('/media/style/bg.png');*/
+    background-color: #262626;
     margin: 0px;
+    
 }
 
 .title {
@@ -37,17 +39,23 @@ h2 {
     position: absolute;
     text-align: left;
     margin-left: 2.38vw;
+    border-color: #1d1d1d;
+    background-color: #1d1d1d;
+    border-style: ridge;
 }
 
 
 .navBlock a {
-    margin-left: 1.6vw;
+    margin-left: 30px;
 }    
     
 .navBlock h3 {
     font-size: 14pt;
+    margin: 14px;
+
 }
     
 .jetbrains_mono {
     font-family: 'JetBrains Mono', monospace;
+    color: white;
 }
