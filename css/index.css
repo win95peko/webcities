@@ -60,3 +60,15 @@ h2 {
     font-family: 'JetBrains Mono', monospace;
     color: white;
 }
+
+#cusdis_thread {
+    flex: right;
+    position: absolute;
+    background-color: #1d1d1d;
+    border-style: ridge;
+    padding: 50px;
+    
+    margin-bottom: 100px;
+    margin-left:  19.38vw;
+    
+}
