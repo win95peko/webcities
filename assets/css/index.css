@@ -1,9 +1,25 @@
 body {
     background-color: #292B2E;
-    margin: auto;
+    margin: 0px;
 }
+
+
 .upperBar {
     background-color: #31363A;
     width: 100vw;
     height: 45px;
+    
+    
+}
+.titleOnBar {
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 370;
+    font-style: normal;
+    color: #DAD9D4;
+    padding-top: 30px;
+    padding: 3px;
+    padding-left: 8px;
+    text-decoration: none;
 }
