@@ -3,14 +3,6 @@ body {
     margin: 0px;
 }
 
-
-.upperBar {
-    background-color: #31363A;
-    width: 100vw;
-    height: 45px;
-    
-    
-}
 .titleOnBar {
     margin-top: 0px;
     font-size: 30px;
@@ -22,4 +14,46 @@ body {
     padding: 3px;
     padding-left: 44vw;
     text-decoration: none;
+}
+
+
+.blogPost  {
+    text-align: center;
+    border: 2px solid #31343a;
+    border-radius: 4px;
+    align-items: center;
+    align-content: center;
+    width: 45vw;
+    margin: 0 auto;
+    background-color: #27292c;
+    margin-top: 6vh;
+    font-family: "Roboto", sans-serif;
+    color: #DAD9D4;
+    
+}
+
+.navBar  {
+    border: 2px solid #31343a;
+    border-radius: 4px;
+    align-items: center;
+    align-content: center;
+    width: 16vw;
+    margin-right: 4vw;
+    float: left;
+    background-color: #27292c;
+    margin-top: 6vh;
+    font-family: "Roboto", sans-serif;
+    color: #DAD9D4;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.colorWhite {
+    color: #DAD9D4;
+    text-decoration: none;
+}
+
+.noVignette {
+    list-style-type: none;
 }
