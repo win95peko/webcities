@@ -10,10 +10,12 @@ body {
     font-weight: 370;
     font-style: normal;
     color: #DAD9D4;
-    padding-top: 30px;
-    padding: 3px;
-    padding-left: 44vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: : 100vw;    
     text-decoration: none;
+    text-align: center;
 }
 
 
@@ -39,6 +41,7 @@ body {
     align-content: center;
     width: 16vw;
     margin-right: 4vw;
+    margin-left: 3vw;
     float: left;
     background-color: #27292c;
     margin-top: 6vh;
@@ -46,6 +49,7 @@ body {
     color: #DAD9D4;
     position: fixed;
     z-index: 1;
+    
     
 }
 
