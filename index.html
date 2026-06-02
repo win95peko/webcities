@@ -8,30 +8,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/webamp"></script>
     <title>home - 95peko</title>
-    <audio loop   src="media/snd/lease.mp3"></audio>
+    <audio autoplay muted loop src="media/snd/ambience.mp3"></audio>
     <script src="/js/comment.js"></script>
+    <script src="/js/autoplay.js"></script>
 </head>
 <body>
+    <img src="/media/img/nitoribottom_left.png" class="bottom-left-img" alt="nitori">
     <div id="app"></div>
     <!--<script src="js/winamp.js"></script>-->
+
 
     <div class="mainBox">
         <div class="title">
             <h2 class="jetbrains_mono">Pagina de 95peko</h2>
-        </div>
-         
-            <div class="navBlock">
-                <h3 class="jetbrains_mono">Mapa del sitio</h3>
-                <a class="jetbrains_mono" href="https://95peko.xyz" target="_blank" rel="noopener noreferrer">Inicio</a>
-            </div>
-        </div>
-        <div class="subMainBox">
-
-            <p class="jetbrains_mono">Buenas, y bienvenidos a mi Pagina Web. Me llamo Joaquín aka. win95peko, Joaco2405. Y este es mi pequeño lugar en la web. Debido a que las redes sociales no aportan a la expresión libre; Tengo este rincon sin censura que no lo podría cubrir otra red. <br> <a href="/manifesto.html" class="jetbrains_mono">Saber mas...</a></p>
-            <div class="comment_box">
-                <div id="graphcomment"></div>
-            </div>
             
+        </div>
+    
+        <div class="navBlock">
+            <h3 class="jetbrains_mono">Mapa del sitio</h3>
+            <ul>
+                <li><a class="jetbrains_mono" href="https://95peko.xyz" target="_blank" rel="noopener noreferrer">Inicio</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="subMainBox">
+                <p class="jetbrains_mono">Buenas, y bienvenidos a mi Pagina Web. Me llamo Joaquín aka. win95peko, Joaco2405. Y este es mi pequeño lugar en la web. Debido a que las redes sociales no aportan a la expresión libre; Tengo este rincon sin censura que no lo podría cubrir otra red. <br> <a href="/manifesto.html" class="jetbrains_mono">Saber mas...</a></p>
+                <div class="comment_box">
+                    <div id="graphcomment"></div>
+                </div>
+            </div>
+        </div>
+
+        
     </div>
 
 </body>
