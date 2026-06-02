@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*.mp3$
+
+Sitemap: https://95peko.net/sitemap.xml
