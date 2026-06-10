@@ -8,64 +8,117 @@ Fonts @import's
 Rest of the code
 */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
-/*     background-image: url('/media/style/bg.png');*/
     background-color: #262626;
     margin: 0px;
-    
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.bottom-left-img {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+    max-width: 400px;
+    max-height: 1200px;
+}
+
+.mainBox {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
 }
 
 .title {
-    text-align: center;
-    padding-top: 5vh;
-    padding-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     font-size: 17pt;
     margin: 0px;
-}
-h2 {
-    margin: auto;
+    margin-bottom: 20px;
+    
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.subMainBox {
-    text-align: center;
-    margin-left: 40vh;
-    margin-right: 40vh;
-    position: absolute;
+h2 {
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    gap: 0;
+    width: 100%;
+    padding: 0 1rem;
 }
 
 .navBlock {
+    flex-shrink: 0;
+    text-align: center;
     
-    flex: left;
-    position: absolute;
-    text-align: left;
-    margin-left: 2.38vw;
     border-color: #1d1d1d;
     background-color: #1d1d1d;
     border-style: ridge;
-    padding-bottom: 17px;
+    border-width: 2px;
+    padding: 15px;
+    
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
-
 
 .navBlock a {
-    margin-left: 30px;
-}    
-    
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navBlock a:hover {
+    text-decoration: underline;
+}
+
 .navBlock h3 {
     font-size: 14pt;
-    margin: 14px;
-
+    margin: 0;
 }
-    
+.subMainBox {
+    text-align: center;
+    flex: 1;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .jetbrains_mono {
     font-family: 'JetBrains Mono', monospace;
     color: white;
 }
 
 .comment_box {
-    margin: 18px;
+    margin: 18px 0;
     border-color: #1d1d1d;
     background-color: #1d1d1d;
     border-style: ridge;
+<<<<<<< HEAD:.bak/css/index.css
 }
 
 .body01{
@@ -81,4 +134,68 @@ h2 {
     
     font-size: 17pt;
     
+=======
+    border-width: 2px;
+    padding: 15px;
+    text-align: left;
+}
+
+ul li {
+    color: white;
+}
+
+ul li::marker {
+    color: white;
+}
+
+/* Mobile responsive - Pantallas menores a 768px */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .title {
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+    }
+
+    .navBlock {
+        width: 100%;
+        margin-bottom: 30px;
+        min-width: 100%;
+    }
+
+    .subMainBox {
+        padding: 0 1rem;
+    }
+
+    .comment_box {
+        margin: 18px auto;
+        max-width: 100%;
+    }
+}
+
+/* Tablet y pantallas medianas - entre 768px y 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navBlock {
+        min-width: 180px;
+    }
+
+    .subMainBox {
+        padding: 0 1.5rem;
+    }
+}
+
+/* Desktop - Pantallas mayores a 1024px */
+@media (min-width: 1025px) {
+    .navBlock {
+        min-width: 220px;
+    }
+
+    .subMainBox {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+>>>>>>> deploy:css/index.css
 }
