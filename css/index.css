@@ -131,6 +131,80 @@ ul li::marker {
     color: white;
 }
 
+/* Webmaster Card */
+.webmasterCard {
+    border-color: #1d1d1d;
+    background-color: #1d1d1d;
+    border-style: ridge;
+    border-width: 2px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.webmasterCard-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #1d1d1d;
+    object-fit: cover;
+}
+
+.webmasterCard-name {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.webmasterCard-nickname {
+    font-size: 12pt;
+    color: #aaa;
+    margin: -8px 0 0 0;
+}
+
+.webmasterCard-age {
+    font-size: 11pt;
+    color: #999;
+}
+
+.webmasterCard-bio {
+    font-size: 11pt;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.webmasterCard-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #262626;
+}
+
+.webmasterCard-socials {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.webmasterCard-social-link {
+    padding: 5px 10px;
+    background-color: #262626;
+    border: 1px solid #1d1d1d;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.webmasterCard-social-link:hover {
+    background-color: #1d1d1d;
+    border-color: white;
+}
+
 /* Mobile responsive - Pantallas menores a 768px */
 @media (max-width: 768px) {
     .container {
