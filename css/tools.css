@@ -1,0 +1,77 @@
+.categoriesBox {
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.categoriesBox-items {
+    flex-shrink: 0;
+    text-align: center;
+    
+    border-color: #1d1d1d;
+    background-color: #1d1d1d;
+    border-style: ridge;
+    border-width: 2px;
+    padding: 6px;
+    
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.contentBox {
+    flex-shrink: 0;
+    border-color: #1d1d1d;
+    background-color: #1d1d1d;
+    border-style: ridge;
+    border-width: 2px;
+    padding: 15px;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contentItem {
+    text-align: left;
+    border-color: #262626;
+    background-color: #262626;
+    border-style: ridge;
+    border-width: 1px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contentItem-title {
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.contentItem-description {
+    font-size: 11pt;
+    line-height: 1.4;
+}
+
+.contentItem-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+
+.contentItem-link:hover {
+    text-decoration: underline;
+}
